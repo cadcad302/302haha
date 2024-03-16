@@ -1,0 +1,16 @@
+
+.gamelink {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image-text {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+}
+.burritoimg {
+    display:block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 50%;
+}
