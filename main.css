@@ -1,6 +1,10 @@
 
 .gamelink {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+.gamelink :hover{
+    color: #ffffff;
 }
 .image-text {
     text-align: center;
@@ -13,7 +17,13 @@
     margin: 0 auto;
     border-radius: 8px;
     max-width: 50%;
+    border: 2px solid #ffffff;
+    padding: 3px;
 }
+.clickimg :hover{
+    max-width: 60%;
+}
+
 html {
     background-color: #252525;
 }
