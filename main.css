@@ -2,15 +2,17 @@
 .gamelink {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
-}
-.gamelink :hover{
-    color: #ffffff;
+    font-size: 20px;
 }
 .image-text {
     text-align: center;
-    width: 25%;
+    width: 317px;
+    height: 317px;
     margin: 0 auto;
     float: left;
+}
+.image-text :hover {
+    transform: scale(1.1);
 }
 .clickimg {
     display:block;
@@ -20,14 +22,28 @@
     border: 2px solid #ffffff;
     padding: 3px;
 }
-.clickimg :hover{
-    max-width: 60%;
-}
 
 html {
-    background-color: #252525;
+    background-color: #3c3f61;
 }
-.bitlifeimg {
-    height: 300px;
-    width: 100%;
+.title {
+    text-align: center;
+    margin: 0 auto;
+}
+.title :hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+}
+.title h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    background: linear-gradient(rgb(182, 1, 236),rgb(0, 81, 255));
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    padding: 10px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
 }
