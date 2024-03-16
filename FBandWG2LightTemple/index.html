@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../iframemain.css">
+    </head>
+    <body>
+    <iframe 
+        src="https://www.coolmathgames.com/sites/default/files/public_games/40210/?gd_sdk_referrer_url=https%3A%2F%2Fwww.coolmathgames.com%2F0-fireboy-watergirl-2-light-temple" 
+        title="fireboy-watergirl-2-light-temple"
+        width="60%" height="800px"
+        allowfullscreen
+        id="gameiframe">
+    </iframe>
+    <footer>
+        <br>
+    <button onclick="Fullscreen()">
+        Fullscreen
+    </button>
+    <br>
+    <a href="../index.html"><button>Home</button></a>
+    </footer>
+    <script>
+        function Fullscreen() {
+            var gameframe = document.getElementById('gameiframe');
+            gameframe.requestFullscreen();
+        }
+    </script>
+ </body>
+</html>

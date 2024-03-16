@@ -8,12 +8,16 @@
     margin: 0 auto;
     float: left;
 }
-.burritoimg {
+.clickimg {
     display:block;
     margin: 0 auto;
     border-radius: 8px;
     max-width: 50%;
 }
 html {
-    background-color: #161616;
+    background-color: #252525;
+}
+.bitlifeimg {
+    height: 300px;
+    width: 100%;
 }
