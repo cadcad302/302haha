@@ -7,7 +7,7 @@
   <meta name="title" content="Ruffle Example">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
-  <title>Ruffle Example</title>
+  <title id="pageTitle">Loading</title>
   <script src="main.js"></script>
   <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
     supports it.</noscript>
@@ -15,7 +15,12 @@
 <body>
 <div id='ruffle' class="gameloc"></div>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script id = "gabe">swfobject.embedSWF("../PapasHotdogeria/flashfiles/papashotdoggeria.swf", 'ruffle', 100, 100);</script>
+<script id = "gabe">swfobject.embedSWF("play.swf", 'ruffle', 100, 100);</script>
+<script>
+        let currentURL = window.location.href;
+        let parentFolder = currentURL.substring(0, currentURL.lastIndexOf('/'));
+        let folderName = parentFolder.substring(parentFolder.lastIndexOf('/') + 1);
+        document.getElementById('pageTitle').innerText = folderName;
+</script>
 </body>
 </html>
-

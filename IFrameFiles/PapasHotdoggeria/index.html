@@ -7,14 +7,20 @@
     <meta name="title" content="Ruffle Example">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
-    <title>Ruffle Example</title>
+    <title id="pageTitle">Loading</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
         supports it.</noscript>
 </head>
 <body>
-    <button id="playbutton" onclick="window.location.href='../PapasHotdogeria/game.html';">Play Now!</button>
+    <button id="playbutton" onclick="window.location.href='game.html';">Play Now!</button>
+    <script>
+        let currentURL = window.location.href;
+        let parentFolder = currentURL.substring(0, currentURL.lastIndexOf('/'));
+        let folderName = parentFolder.substring(parentFolder.lastIndexOf('/') + 1);
+        document.getElementById('pageTitle').innerText = folderName;
+    </script>
 </body>
 </html>
 
