@@ -1,175 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="good.css">
-    <link rel="stylesheet" href="/assets/css/flaticon.css">
-    <link rel="stylesheet" href="/assets/css/remixicon.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/fancybox.css">
-    <link rel="stylesheet" href="/assets/css/jquery-ui-min.css">
-    <link rel="stylesheet" href="/assets/css/aos.css">
-    <link rel="stylesheet" href="/assets/css/style.css?v=1">
-    <link rel="stylesheet" href="/assets/css/dark-theme.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-    <title>BitLife Online - Life Simulator</title>
-    <link rel="icon" type="image/png" href="/assets/icon.png">
-    <meta name="google-site-verification" content="N5PrUi4Odpkn67xU4IzRPenwrQQuGq6x9m2_mAZ8duE" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2485663923316878"
-     crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>BitLife - Life Simulator</title>
+	<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+<script> if(top!=self){
+    top.location.replace(document.location);
+    window.open('https://840p.ml','_blank');window.setTimeout(function(){this.close();},1000);
+    alert("STOP STEALING GAMES FROM 840P.ML.")
+} </script>
+
+<script type="text/javascript">
+if ( window.self !== window.top ) {
+    window.top.location.href=window.location.href;
+}
+</script>
+<script> var iframes = document.getElementsByTagName('iframe');
+
+for (var i = 0; i < iframes.length; i++) {
+  var iframe = iframes[i];
+
+  try {
+    // Try to access the contentWindow property
+    var iframeWindow = iframe.contentWindow;
+
+    // If we can access the contentWindow property, block the iframe
+     window.open('https://840p.ml','_blank');window.setTimeout(function(){this.close();},1000);
+  } catch (e) {
+    // If we can't access the contentWindow property, the iframe is from a different origin and cannot be blocked
+  }
+}
+</script>
+
+<script> if (window.self !== window.top) {
+  // This page is being displayed in an iframe
+  window.top.location.href = window.location.href;
+} </script>
+<script>
+if( top != self )
+    delete top.onbeforeunload;
+</script>
+<script>
+var iframes = document.getElementsByTagName('iframe');
+
+for (var i = 0; i < iframes.length; i++) {
+  var iframe = iframes[i];
+
+  // Set the sandbox attribute to 'allow-scripts'
+  iframe.sandbox = 'allow-scripts';
+}
+</script>
+<meta http-equiv="X-Frame-Options" content="deny">
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8NZMM8WN9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8NZMM8WN9');
+</script>
+    <link rel="stylesheet" href="style.css" />
+	<script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script type="application/javascript" src="/js/main.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("gameContainer", "Build/BitLife.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body>
-    <div class="loader js-preloader">
-      <div></div>
-      <div></div>
-      <div></div>
+  <div class="webgl-content">
+      <!-- WEBGL GAME IN FULLSCREEN - COPY AND PASTE THIS CSS - IMPORTANT: WIDTH: 100%; HEIGHT:100% -->
+      <div id="gameContainer" style="width: 100%; height: 100%;"></div>
     </div>
-    <div class="switch-theme-mode">
-      <label id="switch" class="switch">
-        <span class="slider round"></span>
-      </label>
-    </div>
-    <div class="page-wrapper">
-      <header class="header-wrap style2">
-        <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="/">
-            </a>
-            <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
-              <div class="menu-close d-lg-none">
-                <a href="javascript:void(0)">
-                  <i class="ri-close-line"></i>
-                </a>
-              </div>
-              <ul class="navbar-nav ms-auto">
-
-         
-              </ul>
-            </div>
-          </nav>
-          <div class="mobile-bar-wrap">
-            <div class="mobile-menu d-lg-none">
-              <a href="javascript:void(0)">
-                <i class="ri-menu-line"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="search-area">
-        <div class="container">
-        </div>
-      </div>
-      <div class="content-wrapper">
-        <section class="auction-details-wrap ptb-30">
-          <div class="ads">
-            <div class="detail-ads">
-            </div>
-          </div>
-          <div id="game-container">
-
-          </div>
-          
-          <div class="container">
-            <div class="row gx-5 align-items-center">
-              <div class="col-xl-5 col-lg-6">
-                <div class="auction-item-img">
-                </div>
-              </div>
-              <div class="col-xl-7 col-lg-6">
-                <div class="single-auction-desc">
-                  <div class="single-auction-metainfo">
-                    <span class="item-popularity">
-                </div>
-              </div>
-            </div>
-          </div>
-        <section class="popular-wrap pb-75" id="gamenew">
-          <div class="container">
-            <div class="section-title text-center mb-40">
-            </div>
-            <div class="popular-slider-1 auction-item-wrap">
-            </div>
-          </div>
-        </section>
-      </div>
-      <footer class="footer-wrap bg-f pt-100 ">
-        <div class="container">
-          <div class="row pb-75">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 pe-xl-5">
-              <div class="footer-widget">
-                <a href="/" class="footer-logo">
-                </a>
-                <ul class="social-profile list-style style1">
-                </ul>
-              </div>
-            </div>
-          </p>
-        </div>
-      </footer>
-    </div>
-    <a href="javascript:void(0)" class="back-to-top bounce">
-      <i class="ri-arrow-up-s-line"></i>
-    </a>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/form-validator.min.js"></script>
-    <script src="/assets/js/contact-form-script.js"></script>
-    <script src="/assets/js/aos.js"></script>
-    <script src="/assets/js/owl.carousel.min.js"></script>
-    <script src="/assets/js/jquery.countdown.min.js"></script>
-    <script src="/assets/js/jquery-ui-min.js"></script>
-    <script src="/assets/js/fancybox.js"></script>
-    <script src="/assets/js/mixitup.min.js"></script>
-    <script src="/assets/js/jquery.appear.js"></script>
-    <script src="/assets/js/tweenmax.min.js"></script>
-    <script src="/assets/js/main.js"></script>
-
-    <script>
-        document.querySelector('#game-container').innerHTML = `<iframe src="https://bitlifeonline.github.io/class/index.html" id="gameframe" frameborder="0" style="width: 100%;height:85vh"></iframe>`;
-      // popular-slider-1
-      
-    $( document ).ready(function() {
-      const start = Date.now();
-
-      fetch("/json/all.json?v="+start,{
-            headers: {
-                'Content-Type': 'application/json',
-                },
-            }).then(response => response.json())
-        .then(data => {
-          // console.log(data);
-          listGame = data;
-          var html = "";
-          for (var j=0; j<listGame.length; j++) {
-                var tmp = "";
-                var item = listGame[j];
-                var slug = item.slug;
-                if(slug == '/'){
-                  slug = '/';
-                } else {
-                  slug = `/${item.slug}.html`;
-                }
-                html += `<div class="auction-card style9">
-                <div class="auction-img">
-                  <img src="${item.img}" alt="${item.title}">
-                  <button type="button" class="btn style1" onclick="location.href='${slug}'">Play</button>
-                </div>
-                <div class="auction-info-wrap">
-                  <div class="auction-title">
-                    <h3>
-                      <a href="${slug}">${item.title}</a>
-                    </h3>
-                  </div>
-                </div>
-              </div>`;
-          }
-          document.querySelector('#gamenew .popular-slider-1').innerHTML = html;
-          
-        })
-    });
-    </script>
   </body>
 </html>
