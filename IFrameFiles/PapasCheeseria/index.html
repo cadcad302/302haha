@@ -15,7 +15,8 @@
         player.style.width = "100%";
         player.load("play.swf");
         player.addEventListener('loadedmetadata', () => {
-            metadata.forceAlign = true
+            metadata.width = "100vh"
+            metadata.height = "100vh"
         })
         
     });
