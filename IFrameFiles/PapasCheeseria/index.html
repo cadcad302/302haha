@@ -11,10 +11,12 @@
             "salign": "",
             "forceAlign": true,
         }
-        player.style.height = "100vh";
-        player.style.width = "100vh";
+        player.style.height = "100%";
+        player.style.width = "100%";
         player.load("play.swf");
-
+        player.addEventListener('loadedmetadata', () => {
+            metadata.forceAlign = true
+        })
         
     });
 </script>
