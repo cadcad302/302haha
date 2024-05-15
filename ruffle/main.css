@@ -10,6 +10,6 @@ body, html {
 #container {
     width: 100vh;
     height: 100vh;
-    border: 2px solid #ccc;
+    border: 2px solid #000000;
     background-color: #f5f5f5;
 }
