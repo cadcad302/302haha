@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Ruffle Example">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <title id="pageTitle">Loading</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
-        supports it.</noscript>
+
 </head>
 <body>
-    <button id="playbutton" onclick="window.location.href='game.html';">Play Now!</button>
-    <script>
-        let currentURL = window.location.href;
-        let parentFolder = currentURL.substring(0, currentURL.lastIndexOf('/'));
-        let folderName = parentFolder.substring(parentFolder.lastIndexOf('/') + 1);
-        document.getElementById('pageTitle').innerText = folderName;
-    </script>
-</body>
-</html>
+    
 
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("play.swf");
+        player.style.height = "100vh";
+        player.style.width = "100vh"
+    });
+</script>
+<script src="../../ruffle/ruffle.js"></script>
+<div id="container" width="100%" height="100%" style="align-items: center; justify-content: center;display: flex;"></div>
+</body>
