@@ -1,3 +1,7 @@
+html, body {
+    background: rgb(145, 0, 121);
+    background: linear-gradient(219deg, rgb(65, 0, 54) 0%, rgb(64, 0, 75) 40%, rgb(55, 0, 65) 47%, rgb(0, 103, 124) 100%); 
+}
 #container {
     height: 100%;
     margin: 0;
@@ -5,6 +9,6 @@
     justify-content: center;
     align-items: center;
     border: 2px solid #000000;
-    background: rgb(145,0,121);
-    background: linear-gradient(219deg, rgba(145,0,121,1) 0%, rgba(108,0,128,1) 40%, rgba(108,0,128,1) 47%, rgba(0,212,255,1) 100%); 
+    background: fixed;
+    background-color: rgb(43, 43, 43);
 }
