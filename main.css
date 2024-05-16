@@ -49,5 +49,8 @@ a {
     display: inline-block;
 }
 .tablinks {
-    
+    size: 30px;
+}
+.tabs {
+    align-content: center;
 }
