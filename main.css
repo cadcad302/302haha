@@ -51,6 +51,7 @@ a {
 .tablinks {
     width: 10%;
     font-size: 17px;
+    height: 54px;
 }
 .tabs {
     align-items: center;
