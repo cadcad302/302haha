@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", () =>{
   //Version
   const versionHTML = document.getElementById("Version")
-  fetch("version.JSON")
+  fetch("version.json")
   .then(response => {
     if (!response.ok) {
         throw new Error('Could not fetch specific resource' + response.statusText);
