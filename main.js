@@ -52,24 +52,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 })
 .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
-    const other = testFix("config.json")
-    const testjson = fetch(other)
-    let configEasingTime = testjson.defTransition;
-    let defaultFont = testjson.standardFont;
-    let root = document.querySelector(':root');
-    let rootStyles = getComputedStyle(root);
-    // adding transition
-    root.style.setProperty('--transition-default', configEasingTime);
-    // adding fonts
-    let cssVarFont = rootStyles.getPropertyValue('--standard-font');
-    root.style.setProperty('--standard-font', defaultFont);
 });
-function testFix(goToJSON) {
-    fetch(window.location.origin + "/" + testFix)
-    let newJSON = window.location.origin + "/" + testFix
-    return(newJSON)
-    
-}
 
 
 })
