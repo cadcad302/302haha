@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Bitlife",
+        "image": "bitlife.jpg",
+        "url": "bitlife"
+    },
+    {
+        "name": "Burrito Bison",
+        "image": "burrito.png",
+        "url": "burrito-bison"
+    },
+    {
+        "name": "Fireboy and Watergirl: Forest Temple",
+        "image": "fbwg1.jpg",
+        "url": "fbwg/ForestTemple"
+    },
+    {
+        "name": "House of Hazards",
+        "image": "house-of-hazards.jpg",
+        "url": "house-of-hazards"
+    },
+    {
+        "name": "Papa's Burgeria",
+        "image": "burgeria.jpg",
+        "url": "burgeria"
+    },
+    {
+        "name": "Papa's Cheeseria",
+        "image": "cheeseria.jpg",
+        "url": "cheeseria"
+    },
+    {
+        "name": "Papa's Donuteria",
+        "image": "donuteria.jpg",
+        "url": "donuteria"
+    },
+    {
+        "name": "Papa's Freezeria",
+        "image": "freezeria.jpg",
+        "url": "freezeria"
+    },
+    {
+        "name": "Papa's hotdoggeria",
+        "image": "hotdoggeria.jpg",
+        "url": "hotdoggeria"
+    },
+    {
+        "name": "Papa's Pizzeria",
+        "image": "pizzeria.jpg",
+        "url": "papaspizzeria"
+    }
+]
