@@ -1,4 +1,8 @@
 
+:root {
+    --transition-default: all 0.3s ease;
+    --standard-font: "Arial"
+}
 .gamelink {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aliceblue;
@@ -11,9 +15,6 @@
     margin: 0 auto;
     float: left;
 }
-.image-text :hover {
-    transform: scale(1.1);
-}
 .clickimg {
     display:block;
     margin: 0 auto;
@@ -24,15 +25,12 @@
 }
 
 html {
-    background-color: #000153;
-    background-color: linear-gradient(105deg, #000153 0%, #00001d 100%);
+    background-color: #000000;
+    background: linear-gradient( rgb(0, 3, 177) 0%, rgb(0, 0, 29) 100%);
+    min-height: 100vh;
 }
 .title {
     text-align: center;
-    margin: 0 auto;
-}
-.title :hover {
-    transform: scale(1.1);
 }
 a {
     text-decoration: none;
@@ -47,13 +45,58 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     display: inline-block;
+
 }
 .tablinks {
-    width: 10%;
     font-size: 17px;
-    height: 54px;
-    display: block;
+    height: 40px;
+    margin: 0 10px;
+    padding: 0;
+    border: none;
+    background-color: #00001d00;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    font-family: var(--standard-font);
 }
 .tabs {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    width: 458.6px;
+    border-radius: 10px;
+    border: #000000;
+    background: scroll;
+    height: 50px;
+    background-color: #00000042;
     align-items: center;
+    z-index: 1000;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+}
+
+#Version {
+    margin:0;
+    padding:1px;
+    font-family: var(--standard-font);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
+    color: #ffffff;
+}
+.Transition:hover {
+    
+    transition: var(--transition-default);
+    transform: scale(1.1);
+    
+}
+.versionContainer {
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #00000000;
+    position: fixed;
 }
