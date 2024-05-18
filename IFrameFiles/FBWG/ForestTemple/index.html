@@ -5,18 +5,7 @@
 <body>
     
 
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.load("play.swf");
-        player.style.height = "100vh";
-        player.style.width = "100vh"
-        ruffle.enterFullscreen();
-    });
+<script src="../../../ruffle/ruffle-loader.js"></script>
 </script>
 <script src="../../../ruffle/ruffle.js"></script>
 <div id="container" class="container" allowfullscreen="true"></div>

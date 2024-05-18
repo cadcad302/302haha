@@ -5,18 +5,8 @@
 <body>
     
 
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.load("play.swf");
-        player.style.height = "100vh";
-        player.style.width = "100vh"
-    });
-</script>
+
+<script src="../../ruffle/ruffle-loader.js"></script>
 <script src="../../ruffle/ruffle.js"></script>
 <div id="container" width="100vh" height="100vh" style="align-items: center; justify-content: center;display: flex;"></div>
 </body>
