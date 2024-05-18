@@ -48,5 +48,11 @@
         "name": "Papa's Pizzeria",
         "image": "pizzeria.jpg",
         "url": "papaspizzeria"
+    },
+    {
+        "name": "Sticky Ninja",
+        "image": "sticky-ninja.jpg",
+        "url": "sticky-ninja"
     }
+
 ]
