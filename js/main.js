@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         newGame.addEventListener("click", function () {
           console.log("gigigigiig")
-            window.location.href = `/302haha/play.html?game=${game.url}`
+            window.location.href = `/play.html?game=${game.url}`
         })
 
       });
