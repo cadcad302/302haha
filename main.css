@@ -1,26 +1,33 @@
 
 :root {
     --transition-default: all 0.3s ease;
-    --standard-font: "Arial"
+    --standard-font: "Arial";
+    --over-color: #46006e69;
 }
 .gamelink {
     font-family: var(--standard-font);
     color: aliceblue;
-    font-size: 20px;
+    font-size: 25px;
+    user-select: none;
+    margin: 0;
 }
 .image-text {
     text-align: center;
-    width: 317px;
-    height: 317px;
-    margin: 0 auto;
-    float: left;
+    width: 280px;
+    height: 280px;
+    /*float: left;*/
+    cursor: pointer;
+    padding: 0;
+    display: block;
+    word-wrap: break-word;
 }
 .clickimg {
     display:block;
     margin: 0 auto;
-    border-radius: 8px;
-    max-width: 50%;
-    border: 2px solid #ffffff;
+    border-radius: 35px;
+    max-width: 200px;
+    max-height: 200px;
+    border: none;
     padding: 3px;
 }
 
@@ -30,21 +37,30 @@ html {
     min-height: 100vh;
 }
 .title {
-    text-align: center;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    margin-top: 100px;
+    width: 400px;
+    left: 50%;
+    background: linear-gradient( rgb(0, 3, 184) 0%, rgb(39, 0, 90) 100%);
+    border-radius: 20px;
 }
 a {
     text-decoration: none;
 }
 .title h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
-    background: linear-gradient(rgb(182, 1, 236),rgb(0, 81, 255));
-    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    font-family:"Righteous", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    background: #ffffff33;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
     padding: 10px;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    display: inline-block;
 
 }
 .tablinks {
@@ -58,6 +74,7 @@ a {
     width: 20%;
     cursor: pointer;
     font-family: var(--standard-font);
+    font-size: 1.3rem;
 }
 .tabs {
     display: flex;
@@ -77,6 +94,7 @@ a {
     transform:translateX(-50%);
     margin: 0 auto;
     backdrop-filter: blur(5px);
+    gap: 15px;
 }
 
 #Version {
@@ -85,13 +103,17 @@ a {
     font-family: var(--standard-font);
     -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
     color: #ffffff;
+    
 }
 .Transition:hover {
-    
     transition: var(--transition-default);
     transform: scale(1.1);
     
 }
+.Transition {
+    transition: var(--transition-default);
+}
+
 .versionContainer {
     display: inline-flex;
     padding: 5px;
@@ -99,4 +121,93 @@ a {
     margin: 0;
     background-color: #00000000;
     position: fixed;
+    top:0
+}
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap:0px
+}
+#creditsContainer {
+    display: flex;
+    background-color: var(--over-color);
+    height: 605px;
+    width: 1100px;
+    margin: 100px auto;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+.credit {
+    background-color: #00000042;
+    z-index: 700;
+    height: 500px;
+    width: 45vh;
+    margin: 50px;
+    border-radius: 30px;
+}
+#settingsContainer {
+    display: flex;
+    background-color: var(--over-color);
+    height: 775px;
+    width: 1100px;
+    margin: 100px auto;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.setting {
+    background-color: #00000042;
+    z-index: 700;
+    height: 300px;
+    width: 45vh;
+    margin: 60px;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.setting h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: var(--standard-font);
+}
+.setting p {
+    color: aliceblue;
+    font-family: var(--standard-font);
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding-left: 0px;
+    background-color: #00000021;
+    width: 100px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.setting p:hover {
+    cursor: pointer;
+    user-select: none;
+}
+.bottomSetting {
+    margin-top: -60px;
+}
+.lButton {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50vh;
+    background-color: var(--over-color);
+    width: 200px;
+    color: aliceblue;
+    font-family: var(--standard-font);
+    padding: 15px;
+    border-radius: 20px;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+}
+.lButton:hover {
+    cursor: pointer;
+    user-select: none;
 }

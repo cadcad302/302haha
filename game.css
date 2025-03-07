@@ -1,0 +1,130 @@
+:root {
+    --transition-default: all 0.3s ease;
+    --standard-font: "Arial";
+    --over-color: #46006e69;
+}
+
+
+/*navbar, version, and transitioning*/
+
+.tablinks {
+    font-size: 17px;
+    height: 40px;
+    margin: 0 10px;
+    padding: 0;
+    border: none;
+    background-color: #00001d00;
+    color: white;
+    width: 20%;
+    cursor: pointer;
+    font-family: var(--standard-font);
+    font-size: 1.3rem;
+}
+.tabs {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    width: 458.6px;
+    border-radius: 10px;
+    border: #000000;
+    background: scroll;
+    height: 50px;
+    background-color: #00000042;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
+    gap: 15px;
+}
+
+#Version {
+    margin:0;
+    padding:1px;
+    font-family: var(--standard-font);
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
+    color: #ffffff;
+    
+}
+.Transition:hover {
+    transition: var(--transition-default);
+    transform: scale(1.1);
+    
+}
+.Transition {
+    transition: var(--transition-default);
+}
+
+.versionContainer {
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #00000000;
+    position: fixed;
+    top:0
+}
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+    background-color: #000000;
+    background: linear-gradient( rgb(0, 3, 177) 0%, rgb(0, 0, 29) 100%);
+    min-height: 100vh;
+    overflow: hidden;
+}
+iframe {
+    align-self: center;
+    margin: 0px;
+    display: block;        
+    border: none;
+    overflow: hidden;
+    border-radius: 15px;
+}
+button {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #4d454515;
+    border: none
+}
+#gameCard {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 100px auto;
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 20px;
+    background-color: var(--over-color);
+    width: fit-content;
+    height: fit-content;
+    backdrop-filter: blur(5px);
+}
+p {
+    justify-content: center;
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 auto;
+    font-family: var(--standard-font);
+    font-size: 1.8rem;
+    font-weight: 400;
+}

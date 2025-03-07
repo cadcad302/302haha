@@ -1,7 +1,7 @@
 [
     {
         "name": "Bitlife",
-        "image": "bitlife.jpg",
+        "image": "logo.png",
         "url": "bitlife"
     },
     {
@@ -12,7 +12,7 @@
     {
         "name": "Fireboy and Watergirl: Forest Temple",
         "image": "fbwg1.jpg",
-        "url": "fbwg/ForestTemple"
+        "url": "ForestTemple"
     },
     {
         "name": "House of Hazards",
@@ -22,37 +22,126 @@
     {
         "name": "Papa's Burgeria",
         "image": "burgeria.jpg",
-        "url": "burgeria"
+        "url": "papas-burgeria"
     },
     {
         "name": "Papa's Cheeseria",
         "image": "cheeseria.jpg",
-        "url": "cheeseria"
+        "url": "papas-cheeseria"
     },
     {
         "name": "Papa's Donuteria",
         "image": "donuteria.jpg",
-        "url": "donuteria"
+        "url": "papas-donuteria"
     },
     {
         "name": "Papa's Freezeria",
         "image": "freezeria.jpg",
-        "url": "freezeria"
+        "url": "papas-freezeria"
     },
     {
-        "name": "Papa's hotdoggeria",
+        "name": "Papa's Hotdoggeria",
         "image": "hotdoggeria.jpg",
-        "url": "hotdoggeria"
+        "url": "papas-hotdoggeria"
     },
     {
         "name": "Papa's Pizzeria",
         "image": "pizzeria.jpg",
-        "url": "papaspizzeria"
+        "url": "papas-pizzeria"
     },
     {
         "name": "Sticky Ninja",
         "image": "sticky-ninja.jpg",
         "url": "sticky-ninja"
+    },
+    {
+        "name": "Cannon Basketball",
+        "image": "cannon-basketball-1.png",
+        "url": "cannon-basketball-1"
+    },
+    {
+        "name": "Cannon Basketball 2",
+        "image": "cannon-basketball-2.png",
+        "url": "cannon-basketball-2"
+    },
+    {
+        "name": "Drive Mad",
+        "image": "logo.jpg",
+        "url": "drive-mad"
+    },
+    {
+        "name": "Run",
+        "image": "run.jpg",
+        "url": "run-1"
+    },
+    {
+        "name": "Run 2",
+        "image": "run-2.jpg",
+        "url": "run-2"
+    },
+    {
+        "name": "Run 3",
+        "image": "run-3.jpg",
+        "url": "run-3"
+    },
+    {
+        "name": "Bloon's TD 4 Expansion",
+        "image": "btd4-expansion.jpg",
+        "url": "btd4-exp"
+    },
+    {
+        "name": "Bloon's TD 5",
+        "image": "btd5.jpg",
+        "url": "btd5"
+    },
+    {
+        "name": "Cannon Basketball 4",
+        "image": "img/splash.png",
+        "url": "cannon-basketball-4"
+    },
+    {
+        "name": "Moto X3M",
+        "image": "icon.jpg",
+        "url": "motox3m"
+    },
+    {
+        "name": "Moto X3M 2",
+        "image": "bg.jpg",
+        "url": "motox3m2"
+    },
+    {
+        "name": "Moto X3M 3",
+        "image": "logo.jpg",
+        "url": "motox3m3"
+    },
+    {
+        "name": "Moto X3M 4: Winter",
+        "image": "logo.jpg",
+        "url": "motox3m4winter"
+    },
+    {
+        "name": "Moto X3M 5: Pool Party",
+        "image": "logo.webp",
+        "url": "motox3m5poolparty"
+    },
+    {
+        "name": "Moto X3M 4: Spooky Land",
+        "image": "logo.jpg",
+        "url": "motox3m6spookyland"
+    },
+    {
+        "name": "circloO",
+        "image": "logo.avif",
+        "url": "circloo"
+    },
+    {
+        "name": "Eggy Car",
+        "image": "logo.png",
+        "url": "eggycar"
+    },
+    {
+        "name": "Clicker Heroes",
+        "image": "logo.png",
+        "url": "eggycar"
     }
-
 ]
