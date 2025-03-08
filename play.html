@@ -27,7 +27,7 @@
             .then(data => {
                 const game = data.find(game => game.url === gameURL)
                 if (game) {
-                    const gametype = game.format
+                    let gametype = game.format
                     if (gametype = "html5") {
                         gameFrame.src = `https://stop-looking-at-me.netlify.app/games/html5/${gameURL}/`;
                         window.document.title = `${game.name} | 302Games`
