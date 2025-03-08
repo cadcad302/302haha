@@ -32,12 +32,12 @@
                     window.document.title = `${game.name} | 302Games`
 
                     let gametype = game.format
-
+                    console.log(gametype)
                     if (gametype = "html5") {
                         gameFrame.src = `https://stop-looking-at-me.netlify.app/games/html5/${gameURL}/`;
 
                     } else if (gametype = "flash") {
-                        gameframe.src = `https://stop-looking-at-me.netlify.app/games/flash/index.html/?game="${gameURL}"`
+                        gameFrame.src = `https://stop-looking-at-me.netlify.app/games/flash/index.html/?game="${gameURL}"`
                     }
                 };
             })
