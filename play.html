@@ -33,11 +33,11 @@
 
                     let gametype = game.format
                     console.log(gametype)
-                    if (gametype = "html5") {
-                        console.log("used html5 when flas")
+                    if (gametype === "html5") {
+                        console.log("used html5 when flash")
                         gameFrame.src = `https://stop-looking-at-me.netlify.app/games/html5/${gameURL}/`;
 
-                    } else if (gametype = "flash") {
+                    } else if (gametype === "flash") {
                         gameFrame.src = `https://stop-looking-at-me.netlify.app/games/flash/index.html/?game="${gameURL}"`
                     }
                 };
