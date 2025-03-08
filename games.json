@@ -1,7 +1,7 @@
 [
     {
         "name": "Bitlife",
-        "image": "logo.png",
+        "image": "bitlife.png",
         "url": "bitlife"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
         "name": "Drive Mad",
-        "image": "logo.jpg",
+        "image": "drive-mad.jpg",
         "url": "drive-mad"
     },
     {
@@ -96,52 +96,52 @@
     },
     {
         "name": "Cannon Basketball 4",
-        "image": "img/splash.png",
+        "image": "cannonb4.png",
         "url": "cannon-basketball-4"
     },
     {
         "name": "Moto X3M",
-        "image": "icon.jpg",
+        "image": "motox3m.jpg",
         "url": "motox3m"
     },
     {
         "name": "Moto X3M 2",
-        "image": "bg.jpg",
+        "image": "motox3m2.jpg",
         "url": "motox3m2"
     },
     {
         "name": "Moto X3M 3",
-        "image": "logo.jpg",
+        "image": "motox3m3.jpg",
         "url": "motox3m3"
     },
     {
         "name": "Moto X3M 4: Winter",
-        "image": "logo.jpg",
+        "image": "motox3m4.jpg",
         "url": "motox3m4winter"
     },
     {
         "name": "Moto X3M 5: Pool Party",
-        "image": "logo.webp",
+        "image": "motox3m5.webp",
         "url": "motox3m5poolparty"
     },
     {
-        "name": "Moto X3M 4: Spooky Land",
-        "image": "logo.jpg",
+        "name": "Moto X3M 6: Spooky Land",
+        "image": "motox3m6.jpg",
         "url": "motox3m6spookyland"
     },
     {
         "name": "circloO",
-        "image": "logo.avif",
+        "image": "circloO.avif",
         "url": "circloo"
     },
     {
         "name": "Eggy Car",
-        "image": "logo.png",
+        "image": "eggy-car.png",
         "url": "eggycar"
     },
     {
         "name": "Clicker Heroes",
-        "image": "logo.png",
+        "image": "clickerheroes.png",
         "url": "Clicker-Heroes"
     }
 ]

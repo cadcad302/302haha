@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         newGame.classList.add("image-text")
         newGame.classList.add("Transition")
-        newGame.innerHTML = `<img src="${link}games/${game.url}/${game.image}" loading="lazy" class="clickimg">`
+        newGame.innerHTML = `<img src="${link}img/${game.image}" loading="lazy" class="clickimg">`
         let gameTitle = document.createElement("p")
         gameTitle.textContent = game.name
         gameTitle.classList.add("gamelink")
