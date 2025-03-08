@@ -27,12 +27,17 @@
             .then(data => {
                 const game = data.find(game => game.url === gameURL)
                 if (game) {
+                    const name = document.getElementById("gameName")
+                    name.textContent = game.name
+                    window.document.title = `${game.name} | 302Games`
+
                     let gametype = game.format
+
                     if (gametype = "html5") {
                         gameFrame.src = `https://stop-looking-at-me.netlify.app/games/html5/${gameURL}/`;
-                        window.document.title = `${game.name} | 302Games`
-                        const name = document.getElementById("gameName")
-                        name.textContent = game.name
+
+                    } else if (gametype = "flash") {
+                        gameframe.src = `https://stop-looking-at-me.netlify.app/games/flash/index.html/?game="${gameURL}"`
                     }
                 };
             })
