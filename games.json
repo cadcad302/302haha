@@ -2,146 +2,175 @@
     {
         "name": "Bitlife",
         "image": "bitlife.png",
-        "url": "bitlife"
+        "url": "bitlife",
+        "format": "html5"
     },
     {
         "name": "Burrito Bison",
         "image": "burrito.png",
-        "url": "burrito-bison"
+        "url": "burrito-bison",
+        "format": "html5"
     },
     {
         "name": "Fireboy and Watergirl: Forest Temple",
         "image": "fbwg1.jpg",
-        "url": "ForestTemple"
+        "url": "ForestTemple",
+        "format": "flash"
     },
     {
         "name": "House of Hazards",
         "image": "house-of-hazards.jpg",
-        "url": "house-of-hazards"
+        "url": "house-of-hazards",
+        "format": "html5"
     },
     {
         "name": "Papa's Burgeria",
         "image": "burgeria.jpg",
-        "url": "papas-burgeria"
+        "url": "papas-burgeria",
+        "format": "flash"
     },
     {
         "name": "Papa's Cheeseria",
         "image": "cheeseria.jpg",
-        "url": "papas-cheeseria"
+        "url": "papas-cheeseria",
+        "format": "flash"
     },
     {
         "name": "Papa's Donuteria",
         "image": "donuteria.jpg",
-        "url": "papas-donuteria"
+        "url": "papas-donuteria",
+        "format": "flash"
     },
     {
         "name": "Papa's Freezeria",
         "image": "freezeria.jpg",
-        "url": "papas-freezeria"
+        "url": "papas-freezeria",
+        "format": "html5"
     },
     {
         "name": "Papa's Hotdoggeria",
         "image": "hotdoggeria.jpg",
-        "url": "papas-hotdoggeria"
+        "url": "papas-hotdoggeria",
+        "format": "flash"
     },
     {
         "name": "Papa's Pizzeria",
         "image": "pizzeria.jpg",
-        "url": "papas-pizzeria"
+        "url": "papas-pizzeria",
+        "format": "flash"
     },
     {
         "name": "Sticky Ninja",
         "image": "sticky-ninja.jpg",
-        "url": "sticky-ninja"
+        "url": "sticky-ninja",
+        "format": "flash"
     },
     {
         "name": "Cannon Basketball",
         "image": "cannon-basketball-1.png",
-        "url": "cannon-basketball-1"
+        "url": "cannon-basketball-1",
+        "format": "flash"
     },
     {
         "name": "Cannon Basketball 2",
         "image": "cannon-basketball-2.png",
-        "url": "cannon-basketball-2"
+        "url": "cannon-basketball-2",
+        "format": "flash"
     },
     {
         "name": "Drive Mad",
         "image": "drive-mad.jpg",
-        "url": "drive-mad"
+        "url": "drive-mad",
+        "format": "html5"
     },
     {
         "name": "Run",
         "image": "run.jpg",
-        "url": "run-1"
+        "url": "run-1",
+        "format": "flash"
     },
     {
         "name": "Run 2",
         "image": "run-2.jpg",
-        "url": "run-2"
+        "url": "run-2",
+        "format": "flash"
     },
     {
         "name": "Run 3",
         "image": "run-3.jpg",
-        "url": "run-3"
+        "url": "run-3",
+        "format": "flash"
     },
     {
         "name": "Bloon's TD 4 Expansion",
         "image": "btd4-expansion.jpg",
-        "url": "btd4-exp"
+        "url": "btd4-exp",
+        "format": "flash"
     },
     {
         "name": "Bloon's TD 5",
         "image": "btd5.jpg",
-        "url": "btd5"
+        "url": "btd5",
+        "format": "flash"
     },
     {
         "name": "Cannon Basketball 4",
         "image": "cannonb4.png",
-        "url": "cannon-basketball-4"
+        "url": "cannon-basketball-4",
+        "format": "html5"
     },
     {
         "name": "Moto X3M",
         "image": "motox3m.jpg",
-        "url": "motox3m"
+        "url": "motox3m",
+        "format": "flash"
     },
     {
         "name": "Moto X3M 2",
         "image": "motox3m2.jpg",
-        "url": "motox3m2"
+        "url": "motox3m2",
+        "format": "flash"
     },
     {
         "name": "Moto X3M 3",
         "image": "motox3m3.jpg",
-        "url": "motox3m3"
+        "url": "motox3m3",
+        "format": "flash"
     },
     {
         "name": "Moto X3M 4: Winter",
         "image": "motox3m4.jpg",
-        "url": "motox3m4winter"
+        "url": "motox3m4winter",
+        "format": "flash"
     },
     {
         "name": "Moto X3M 5: Pool Party",
         "image": "motox3m5.webp",
-        "url": "motox3m5poolparty"
+        "url": "motox3m5poolparty",
+        "format": "flash"
     },
     {
         "name": "Moto X3M 6: Spooky Land",
         "image": "motox3m6.jpg",
-        "url": "motox3m6spookyland"
+        "url": "motox3m6spookyland",
+        "format": "flash"
     },
     {
         "name": "circloO",
         "image": "circloO.avif",
-        "url": "circloo"
+        "url": "circloo",
+        "format": "html5"
     },
     {
         "name": "Eggy Car",
         "image": "eggy-car.png",
-        "url": "eggycar"
+        "url": "eggycar",
+        "format": "html5"
     },
     {
         "name": "Clicker Heroes",
         "image": "clickerheroes.png",
-        "url": "Clicker-Heroes"
+        "url": "Clicker-Heroes",
+        "format": "html5"
     }
 ]

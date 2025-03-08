@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Loading...</title>
-        <link rel="stylesheet" href="game.css">
-    </head>
-    <body>
-        <header id="header"></header>
-<div id="gameCard" style="width:1100px;height:720px;">
-    <p id="gameName">Loading...</p>
-    <iframe 
-        title="Freezeria"
-        width="100%" height="100%"
-        allowfullscreen
-        id="gameiframe"
-        scrolling="no">
 
-    </iframe>
-    <button onclick="Fullscreen()">
-        <img src="img/full-screen.png" loading="lazy" class="clickimg Transition">
-    </button>
-</div>
+<head>
+    <title>Loading...</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <div id="gameCard" style="width:1100px;height:720px;">
+        <p id="gameName">Loading...</p>
+        <iframe title="Freezeria" width="100%" height="100%" allowfullscreen id="gameiframe" scrolling="no">
+
+        </iframe>
+        <button onclick="Fullscreen()">
+            <img src="img/full-screen.png" loading="lazy" class="clickimg Transition">
+        </button>
+    </div>
     <br>
     <script>
         const gameFrame = document.getElementById('gameiframe');
         const urlParameters = new URLSearchParams(window.location.search);
         const gameURL = urlParameters.get('game')
         fetch('games.json')
-         .then(response=>response.json())
-            .then(data=>{
-             const game=data.find(game=>game.url===gameURL)
+            .then(response => response.json())
+            .then(data => {
+                const game = data.find(game => game.url === gameURL)
                 if (game) {
-                 gameFrame.src = `https://stop-looking-at-me.netlify.app/games/${gameURL}/`;
-                window.document.title = `${game.name} | 302Games`
-                const name = document.getElementById("gameName")
-                name.textContent = game.name
-             };
-        })
+                    const gametype = game.format
+                    if (gametype = "html5") {
+                        gameFrame.src = `https://stop-looking-at-me.netlify.app/games/html5/${gameURL}/`;
+                        window.document.title = `${game.name} | 302Games`
+                        const name = document.getElementById("gameName")
+                        name.textContent = game.name
+                    }
+                };
+            })
 
-        .catch(error => console.error('Error fetching game:', error))
+            .catch(error => console.error('Error fetching game:', error))
         function Fullscreen() {
             gameiframe.requestFullscreen();
         }
     </script>
     <script src="js/config.js"></script>
     <script src="js/setup.js"></script>
- </body>
+</body>
+
 </html>
